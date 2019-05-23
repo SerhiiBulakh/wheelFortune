@@ -1,0 +1,31 @@
+#root {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#canvasContainer {
+    background-image: url(./img/wheel_back.png);
+    background-repeat: no-repeat;  
+    background-position: center; 
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 600px;                   
+    height: 500px;
+}
+.centered {
+    color: white;
+    background: green;
+    width: 152px;
+    height: 151px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    border-radius: 50%;
+}
+#count{
+    font-size:22px;
+}
